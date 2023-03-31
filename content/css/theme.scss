@@ -18,8 +18,8 @@ $theme-font-stack-main: "IBM Plex Sans", sans-serif;
 $theme-font-stack-headers: "IBM Plex Serif", serif;
 
 // This line sets the base font size for desktop
-// default is 110%
-$font-size-base: 110%;
+// default is 100%
+$font-size-base: 100%;
 
 // This line sets the base font size for mobile
 // default is 100%
@@ -91,19 +91,19 @@ $nav-project-indent: 1em;
 
 // This line sets the background color for the sidebar area, and for the top bar on mobile
 // default is a light gray (#c0c0c0)
-$color-sidebar-background: #c0c0c0;
+$color-sidebar-background: #803838;
 
 // This line sets the text color for the sidebar area, and for the top bar on mobile
 // default is black
-$color-sidebar-text: black;
+$color-sidebar-text: rgb(231, 231, 231);
 
 //This line sets the color of the sidebar highlight (shown on the current page);
 // default is white
-$color-sidebar-highlight: white;
+$color-sidebar-highlight: rgb(119, 23, 23);
 
 //this sets the color of the rule on the sidebar (shown between the masthead and the pages)
 //default is black;
-$color-sidebar-rule: black;
+$color-sidebar-rule: rgb(156, 112, 112);
 
 // this sets the weight of the rule on the sidebar;
 // default is 2px
@@ -155,7 +155,7 @@ $color-text-link: blue;
 
 // This color is used for the 'previous/next project' component in the footer of a project page.
 // This color is used as a background color on hover
-$color-next-project-hover: lightpink;
+$color-next-project-hover: rgba(218, 26, 54, 0.37);
 
 // Portfolio 'Tile' Layout
 // This is the layout that uses image tiles, with a hover effect that shows the title of the project.
@@ -181,7 +181,7 @@ $portfolio-tile-max-columns: 3;
 
 // This line sets the hover color for the 'card' portfolio layout
 // default is lightgreen
-$color-portfolio-card-highlight: lightgreen;
+$color-portfolio-card-highlight: rgb(211, 127, 116);
 
 //This is the minimum width of a card in the 'card' portfolio layout.
 // default is 400px
